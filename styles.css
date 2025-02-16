@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(12, 6, 31);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18, 2, 59);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(221, 170, 231);
+    font-size: 1.04rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+main hr {
+    border: 0;
+    background-color: antiquewhite;
+    height: 1.2px;
+    margin: 30px 84px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+    margin-left: 5rem;
+    font-size: 2rem;
+
+
+}
+
+.leftSection p {
+    font-size: 0.9rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.2) translateY(-10px);
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 25px var(--main-color);
+
+}
+
+.rightSection img {
+    width: 25vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    animation: floatImage 4s ease-in-out infinite;
+    transition: 0.4s ease;
+
+}
+
+.rightSection img:hover {
+    box-shadow: 0 0 25px var(--main-color),
+        0 0 35px var(--main-color),
+        0 0 45px var(--main-color);
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2.4rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.magenta {
+    color: rgba(219, 56, 211, 0.842);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgba(219, 56, 211, 0.842);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.8rem;
+
+}
+
+.secondSection .box {
+    background: white;
+    display: flex;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+footer {
+    background-color: #290d49;
+    height: 233px;
+
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: rgb(43, 31, 85);
+}
+
+.about-img img {
+    width: 25vw;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.about-img img:hover {
+    box-shadow: 0 0 25px var(--main-color),
+        0 0 35px var(--main-color),
+        0 0 45px var(--main-color);
+    ;
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.about-content {
+    padding: 0 4rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1;
+}
+
+.about-content h3 {
+    font-size: 2rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+}
+
+.services h2 {
+    text-align: center;
+    margin: 3rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 1rem;
+    background: red;
+    padding: 3rem 3rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.3rem solid var(--bg-color);
+    transition: 0.3s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1rem;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    padding:23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer-first h3 {
+    margin-top: 2.6rem;
+    padding: 2rem 0 0;
+}
