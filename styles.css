@@ -204,10 +204,12 @@ footer {
 .about-content h2 {
     text-align: left;
     line-height: 1;
+    margin-top: 1rem;
 }
 
 .about-content h3 {
     font-size: 2rem;
+    margin-top: 1rem;
 }
 
 .about-content p {
@@ -230,7 +232,7 @@ footer {
 
 .services-container .services-box {
     flex: 1 1 1rem;
-    background: red;
+    background: purple;
     padding: 3rem 3rem 3rem;
     border-radius: 2rem;
     text-align: center;
